@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope";
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(243, 237, 237);
+}
+
+/* Navbar */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+        url(./Photos/mainBackground.png);
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 115vh;
+    background-blend-mode: hard-light;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 9%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    gap: 6em;
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: #5a20cb;
+    transition: 0.3 sec;
+    scale: 1.05;
+}
+
+.nav-img {
+    width: 10%;
+}
+
+.line {
+    border-bottom: 3px solid #595b5d;
+    margin: 0 76px;
+    padding: 4px;
+}
+
+.hero-text {
+    padding: 112px 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 50px;
+}
+
+.hero-h {
+    font-size: 50px;
+    width: 61%;
+    line-height: 85px;
+}
+
+.hero-p {
+    font-size: 17px;
+    width: 34%;
+    opacity: 80%;
+}
+
+.hero-btn button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 19px 49px;
+    color: #fff;
+    background-color: #6c64cd;
+    border: 3px solid transparent;
+    border-radius: 37px;
+}
+
+.hero-btn button:hover {
+    color: #6c64cd;
+    background-color: #fff;
+    border: 3px solid #6c64cd;
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 55px 83px;
+    border-radius: 36px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -100px;
+    margin: 0 50px;
+}
+
+.l-img:hover {
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+}
+
+/* Best Estate */
+.estate-c {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 200px;
+    gap: 100px 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.estate-h h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 70px;
+    top: 60px;
+}
+
+.estate-c div img {
+    height: 375px;
+    width: 375px;
+    border-radius: 20px;
+}
+
+.estate-c div .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #fff;
+    border: none;
+    position: relative;
+    left: 16px;
+    top: -67px;
+    width: 90%;
+    height: 24%;
+}
+
+.estate-c div .heading .price h1 {
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+    right: 50px;
+    opacity: 70%;
+}
+
+.estate-c div .heading .price {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+.estate-c div .heading .price span {
+    color: #6c64cd;
+    font-weight: 700;
+    position: relative;
+    right: 51px;
+    font-size: 18px;
+    opacity: 80%;
+}
+
+.estate-c div .heading .detail-btn button {
+    background-color: #6c64cd;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 17px 32px;
+    border-radius: 28px;
+    position: relative;
+    font-size: 16px;
+    left: 39px;
+}
+
+.estate-c div .heading .detail-btn button:hover {
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+    border: 2px solid #6c64cd;
+    color: #6c64cd;
+    background-color: #fff;
+}
+
+.card1 {
+    position: relative;
+    bottom: 60px;
+}
+
+.card2 {
+    position: relative;
+    bottom: 30px;
+}
+
+.card4 {
+    position: relative;
+    top: 60px;
+}
+
+.card5 {
+    position: relative;
+    top: 30px;
+}
+
+.card8 {
+    position: relative;
+    top: 30px;
+}
+
+.card9 {
+    position: relative;
+    top: 60px;
+}
+
+.c:hover {
+    cursor: pointer;
+    transition: all 0.3 sec;
+    scale: 1.1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+}
+
+/* Booking Section */
+.booking {
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+.book-1 {
+    display: flex;
+}
+
+.estate1-left {
+    display: flex;
+}
+
+.frame-1 img {
+    height: 510px;
+    width: 610px;
+}
+
+.house-1 img {
+    height: 447px;
+    width: 449px;
+    position: relative;
+    left: 109px;
+    bottom: 573px;
+    border-radius: 40px;
+}
+
+.house-1 img:hover {
+    cursor: pointer;
+    transition: all 0.3 sec;
+    scale: 1.08;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.estate2-right {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    left: 215px;
+    top: 70px;
+}
+
+.b-h-1 {
+    font-size: 40px;
+    width: 480px;
+}
+
+.b-p-1 {
+    width: 400px;
+    opacity: 50%;
+}
+
+.b-btn-1 button {
+    color: #fff;
+    background-color: #6c64cd;
+    padding: 23px 41px;
+    border-radius: 37px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.b-btn-1 button:hover {
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+    border: 2px solid #6c64cd;
+    color: #6c64cd;
+    background-color: #fff;
+}
+
+.book-2 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 155px;
+}
+
+.estate3-left {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: relative;
+    left: 239px;
+    top: 55px;
+}
+
+.b-h-2 {
+    font-size: 40px;
+    width: 480px;
+}
+
+.b-p-2 {
+    width: 400px;
+    opacity: 50%;
+}
+
+.b-btn-2 button {
+    color: #fff;
+    background-color: #6c64cd;
+    padding: 23px 41px;
+    border-radius: 37px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.b-btn-2 button:hover {
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+    border: 2px solid #6c64cd;
+    color: #6c64cd;
+    background-color: #fff;
+}
+
+.estate4-right {
+    display: flex;
+}
+
+.house-2 img {
+    height: 447px;
+    width: 449px;
+    position: relative;
+    left: 501px;
+    top: -62px;
+    border-radius: 30px;
+}
+
+.house-2 img:hover {
+    cursor: pointer;
+    transition: all 0.3 sec;
+    scale: 1.08;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.frame-2 img {
+    height: 510px;
+    width: 610px;
+}
+
+/* Subscribe Section */
+.newsletter {
+    color: #fff;
+    background-color: #6c64cd;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px 50px;
+    padding: 60px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.s-h {
+    text-align: center;
+    font-size: 40px;
+    width: 850px;
+    font-weight: 100;
+}
+
+.s-p {
+    text-align: center;
+    font-size: 18px;
+    width: 606px;
+    line-height: 30px;
+}
+
+.subs {
+    display: flex;
+    gap: 15px;
+}
+
+.mail-img {
+    height: 20px;
+    position: relative;
+    left: 56px;
+    top: 23px;
+}
+.mail-img:hover {
+    /* color: #6c64cd; */
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.2;  
+}
+
+.email {
+    color: #fff;
+    background-color: #50499f;
+    border: none;
+    border-radius: 30px;
+    width: 424px;
+    text-align: center;
+    font-size: 15px;
+    height: 64px;
+}
+
+.subs-btn {
+    color: #6c64cd;
+    display: flex;
+    border-radius: 35px;
+    border: none;
+    font-weight: 600;
+    padding: 15px 44px;
+    font-size: 17px;
+    border: 3px solid transparent;
+}
+
+.subs-btn:hover {
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+    border: 3px solid #67d011;
+}
+
+/* Footer Section */
+.footer {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.f-l {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    left: -120px;
+}
+
+.l-f {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 60px;
+}
+
+.l-f img {
+    display: flex;
+    align-self: flex-start;
+    height: 50px;
+    position: relative;
+    top: 8px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 46px;
+}
+
+.f-p {
+    width: 311px;
+    line-height: 25px;
+    padding-top: 20px;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.r-f {
+    display: flex;
+    gap: 150px;
+    position: relative;
+    left: 90px;
+}
+
+.r-f div p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.r-f div p:hover {
+    color: #5a20cb;
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 30px;
+    padding-top: 20px;
+    opacity: 70%;
+}
+
+.lists li:hover {
+    color: #6c64cd;
+    cursor: pointer;
+    transition: 0.3 sec;
+    scale: 1.05; 
+}

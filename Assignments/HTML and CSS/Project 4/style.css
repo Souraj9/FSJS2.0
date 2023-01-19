@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9F5ED;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+
+
+/* CSS for HERO Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+    width: 40%;
+}
+
+.leftmain h1{
+    font-size: 60px;
+}
+
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 13px 31px;
+border: none;
+background-color: #3b855b;
+border-radius: 11px;
+color: #ffffff;
+font-weight: 500;
+font-size: 15px;
+}
+.Img1{
+    padding: 6px;
+}
+.Img2{
+    padding: 6px;
+}
+.rightmain{
+    width: 60%;
+}
+.Img3{
+padding: 6px;
+}

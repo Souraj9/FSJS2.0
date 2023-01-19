@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+/* Nav Bar */
+* {
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 65px;
+    font-size: 28px;
+}
+
+nav>div>img {
+    height: 39px;
+    width: 122px;
+    position: relative;
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    gap: 56px;
+    font-size: 22px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 40px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.list-item:first-child {
+    font-weight: bold;
+    align-self: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 160px;
+    height: 105px;
+    position: relative;
+    top: -12px;
+    right: 49px;
+    gap: 12px;
+}
+
+.nav-button {
+    border: 3px solid #0D0D0D;
+    border-radius: 11px;
+    height: 45px;
+    width: 158px;
+    background-color: #fff;
+    font-size: 22px;
+    color: #666161;
+}
+
+/* hero section */
+
+[aria-label="banner"] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    position: absolute;
+    top: 364px;
+    left: 250px;
+    z-index: 0;
+}
+
+.globe {
+    position: relative;
+    left: 900px;
+}
+
+.hero-container-right {
+    position: relative;
+    top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-heading {
+    font-size: 57px;
+    margin-left: 460px;
+}
+
+
+
+.hero-description {
+    margin-top: 87px;
+    width: 44%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 458px;
+    color: #666161;
+}
+
+
+.button-email {
+    border: 2px solid #0D0D0D;
+    border-radius: 9px;
+    height: 40px;
+    width: 225px;
+    background-color: #fff;
+    color: #666161;
+    font-size: 20px;
+    margin-left: 434px;
+    margin-top: 149px;
+    margin-right: 27px;
+}
+
+
+.button-join {
+    border: none;
+    border-radius: 8px;
+    height: 36px;
+    width: 165px;
+    background-color: #0D0D0D;
+    color: #fff;
+    font-size: 25px;
+    margin-top: -13px;
+}
+
+
+.contact-heading {
+    font-size: 25px;
+    color: #666161;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 103px;
+    margin-left: 419px;
+}
+
+
+.icons {
+    position: relative;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    bottom: -20px;
+    right: -212px;
+}
+
+
+.hero-container .star:nth-child(2) img {
+    position: relative;
+    top: 690px;
+    left: 739px;
+    width: 40px;
+}
+
+.hero-container .star:nth-child(3) img {
+
+    position: relative;
+    bottom: -95px;
+    left: 1333px;
+    width: 60px;
+}
+
+.hero-container>div>img {
+    position: absolute;
+    padding: 32px 14px;
+    top: 0px;
+    left: 29px;
+}

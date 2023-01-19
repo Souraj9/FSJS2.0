@@ -1,0 +1,145 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* Nav Bar */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* .container {
+    background-image: url("./assets/bg.png");
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+} */
+
+
+[aria-label = "navbar"] {
+    background-color: #000000;
+    color: black;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div > img {
+    height: 100%;
+width: 169px;
+padding: 29px;
+margin-left: 34px;
+}
+
+.line {
+    border-left: 3px solid white;
+height: 50px;
+margin-left: 8px;
+}
+
+.grow-list {
+    flex-grow: 1;
+}
+
+.list {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.list-item {
+    color: #ffffff;
+margin-left: 78px;
+font-size: 14px;
+padding: 9px;
+margin-top: -10px;
+}
+
+.list-item:first-child::after {
+    content: "\2228";
+font-size: 1rem;
+margin-left: 7px;
+}
+
+
+.button-small {
+    border: none;
+color: #f8f8f8;
+background-color: #ba0dc4;
+height: 40px;
+width: 153px;
+border-radius: 12px;
+font-weight: 500;
+font-size: 16px;
+padding: 8px;
+margin-left: 140px;
+display: inline-block;
+}
+/* Main Section */
+
+[aria-label = "hero"] {
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 99vw;
+}
+
+.bg-image {
+    position: absolute;
+    height: 86vh;
+    width: 100%;
+}
+
+[aria-label="hero"] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    color: #ffffff;
+    top: 14px;
+    width: 58%;
+    padding-left: 50px;
+}
+
+.hero-heading {
+    font-size: 80px;
+}
+
+
+.hero-description {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+.button-large {
+    margin-top: 20px;
+    background-color: #ba0dc4;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    height: 60px;
+    width: 376px;
+    font-size: 23px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Navbar */
+.hero {
+    background: linear-gradient(to top, #dae9f8, #fff);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 97%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+}
+
+.navlist {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.list-item {
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.list-item:hover {
+    color: #5d10c8;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: lighter;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.card-trial-btn:hover {
+    color: #fff;
+    background-color: #5d10c8;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+}
+
+.free-trial-btn {
+    background-color: #fff;
+    padding: 5px 15px 5px 15px;
+    color: #5d10c8;
+    border: 1px solid #5d10c8;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.free-trial-btn:hover {
+    color: #fff;
+    background-color: #5d10c8;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+}
+
+.free-trial-two {
+    color: #fff;
+    padding: 8px 18px 8px 18px;
+    background-color: #7a3ad4;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.free-trial-two:hover {
+    background-color: #fff;
+    color: #5d10c8;
+}
+
+.learn-more {
+    background-color: #fff;
+    padding: 8px 18px 8px 18px;
+    color: #5d10c8;
+    border: none;
+    border-radius: 30px;
+    font-weight: 400;
+}
+
+.learn-more:hover {
+    color: #fff;
+    background-color: #5d10c8;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 1);
+    transition: all 0.4s ease 0s;
+}
+
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(135deg);
+    position: relative;
+    left: 7px;
+    opacity: 70%;
+}
+
+.fa {
+    color: #747474;
+}
+
+.version-released {
+    background-color: #f7f1ff;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 43%;
+    border-radius: 20px;
+    padding: 10px;
+    color: #5d10c8;
+    font-size: 0.9rem;
+    margin-top: 5%;
+}
+
+.version-path {
+    display: flex;
+    flex-direction: column;
+}
+
+.version-released a {
+    color: #5d10c8;
+    text-decoration: 0.5px solid underline;
+}
+
+/* Header Section */
+.header-section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.header-container {
+    display: flex;
+    width: 89%;
+    margin: auto;
+
+}
+
+.header-left {
+    width: 50%;
+}
+
+.header-left h1 {
+    margin-top: 5%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1em;
+    width: 75%;
+}
+
+.header-right {
+    width: 50%;
+}
+
+.header-right img {
+    width: 85%;
+}
+
+.header-left p {
+    width: 85%;
+    color: #7c8085;
+    font-size: 0.9rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.header-btns {
+    display: flex;
+    gap: 15px;
+    width: 90%;
+}
+
+/*  Why Qubly Section  */
+.qubly-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.why-qubly {
+    background-color: #f7f1ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 14%;
+    border-radius: 20px;
+    padding: 8px 13px 8px 13px;
+    color: #5d10c8;
+    font-size: 1rem;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.why-qubly img {
+    height: 15px;
+}
+
+.why-qubly img:hover {
+    scale: 1.2;
+    transition: .3;
+}
+
+.qubly-first h2 {
+    margin: auto;
+    text-align: center;
+    word-spacing: 4px;
+    font-size: 2rem;
+    margin-bottom: 1.5%;
+}
+
+.qubly-first p {
+    text-align: center;
+    color: #7c8085;
+    font-size: 0.9rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.qubly-second {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.qubly-step-one {
+    text-align: center;
+}
+
+.qubly-step-one h4 {
+    font-size: 0.9rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.qubly-step-one p {
+    color: #7c8085;
+    font-size: 0.9rem;
+    width: 78%;
+    margin: auto;
+}
+
+.qubly-step-two {
+    text-align: center;
+}
+
+.qubly-step-two h4 {
+    font-size: 0.9rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.qubly-step-two p {
+    color: #7c8085;
+    font-size: 0.9rem;
+    width: 78%;
+    margin: auto;
+}
+
+.qubly-step-three {
+    text-align: center;
+}
+
+.qubly-step-three h4 {
+    font-size: 0.9rem;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.qubly-step-three p {
+    color: #7c8085;
+    font-size: 0.9rem;
+    width: 78%;
+    margin: auto;
+}
+
+/*  Product Teams */
+.products-team {
+    background-color: #f7f1ff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 35%;
+    border-radius: 20px;
+    padding: 8px 13px 8px 13px;
+    color: #5d10c8;
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+
+.products-team img {
+    height: 20px;
+}
+
+.products-team img:hover {
+    scale: 1.2;
+    transition: .3;
+}
+
+.products-team-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10%;
+    justify-content: center;
+}
+
+.products-group {
+    width: 50%;
+}
+
+.products-group img {
+    width: 90%;
+}
+
+.products-content {
+    width: 50%;
+}
+
+.products-content p {
+    color: #7c8085;
+    width: 85%;
+    margin-top: 5%;
+}
+
+/* Engineering Teams */
+.for-engineers {
+    background-color: #f7f1ff;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 40%;
+    border-radius: 20px;
+    padding: 8px 13px 8px 13px;
+    color: #5d10c8;
+    font-size: 1rem;
+    margin-bottom: 2%;
+}
+
+.for-engineers img {
+    height: 20px;
+}
+
+.for-engineers img:hover {
+    scale: 1.2;
+    transition: .3;
+}
+
+.engineering-teams-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+
+.pipeline-tools {
+    width: 50%;
+}
+
+.pipeline-tools img {
+    width: 100%;
+}
+
+.engineering-content {
+    width: 50%;
+}
+
+.engineering-content p {
+    color: #7c8085;
+    width: 83%;
+    margin-top: 5%;
+}
+
+/* CTO Section */
+.cto-section {
+    width: 80%;
+    margin: auto;
+}
+
+.cto {
+    clip-path: polygon(0% 18%, 100% 0%, 100% 82%, 0% 100%);
+    background: linear-gradient(to top, #f4f8ff, #f4ecf9);
+}
+
+.cto-section p {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 10%;
+}
+
+.cto-profile {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.cto-profile img:hover {
+    scale: 1.2;
+    transition: .3;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 40px;
+}
+
+.cto-name {
+    margin: 3% auto;
+}
+
+.wrap-line {
+    border-bottom: 3px solid #eae4fa;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.logos-group {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    padding-bottom: 10%;
+}
+
+.logos-group img {
+    width: 10%;
+}
+
+.logos-group img:hover {
+    scale: 1.2;
+    transition: .3;
+}
+
+.last-section {
+    width: 90%;
+    margin: 10% auto;
+    display: flex;
+}
+
+/* Why Qubly & Sign-Up Section */
+.why-qubly-container {
+    width: 50%;
+}
+
+.why-qubly-container h2 {
+    width: 65%;
+    margin: auto;
+}
+
+.first-line,
+.second-line {
+    border-bottom: 3px solid #eaeaea;
+    width: 30%;
+    margin: 3%;
+}
+
+.trusted-by-line {
+    width: 72%;
+    display: flex;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.trusted-by-line span {
+    color: #97979e;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 22%;
+}
+
+.why-qubly-logos {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+
+.why-qubly-logos img {
+    width: 30%;
+}
+
+.why-qubly-logos img:hover {
+    scale: 1.2;
+    transition: 0.3;
+}
+
+.sign-up-container {
+    width: 50%;
+}
+
+.sign-up-section {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    text-align: center;
+    background-color: #f9f0ff;
+}
+
+.sign-up-card {
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    position: relative;
+    bottom: 20px;
+    box-shadow: 6px 6px 11px -1px rgba(59, 58, 58, 0.23);
+}
+
+.sign-up-card h3 {
+    font-size: 1.3rem;
+    padding: 3%;
+}
+
+.card-trial-btn {
+    width: 80%;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    background-color: #7a3ad4;
+    border: none;
+    font-weight: 400;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.sign-up-card input {
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 5%;
+    border: 2px solid #e9e9e9;
+    font-weight: 500;
+    color: #616161;
+    outline: 0;
+}
+
+.sign-up-card input::placeholder {
+    color: #9f9fb3;
+    border: 0;
+}
+
+.signin-section {
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-btn {
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    background-color: #4285f4;
+    border: none;
+    font-weight: 600;
+}
+
+.google-icon {
+    width: 9.7%;
+    border: 2px solid #4285f4;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.google-btn:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+    box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.google-btn:active {
+    background-color: #3367D6;
+    transition: background-color 0.2s;
+}
+
+.sign-up-line {
+    border-bottom: 3px solid #eaeaea;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.already-account {
+    margin-bottom: 8%;
+    color: #9f9fb3;
+}
+
+.already-account a {
+    text-decoration: none;
+    color: #7838d3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #fbfcff;
+}
+
+.footer-lists {
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.footer-lists>* {
+    cursor: pointer;
+}
+
+.footer-lists ul li:hover {
+    color: #459d9d;
+}
+
+
+.footer-lists ul li {
+    list-style-type: none;
+    margin-bottom: 10%;
+    font-size: 0.9rem;
+}
+
+.footer-lists h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 15%;
+}
+
+.social img {
+    margin-right: 1%;
+}
+
+.footer-social {
+    width: 22%;
+    margin-bottom: 10%;
+    font-size: 0.9rem;
+}
+
+.footer-social p {
+    margin: 5% auto;
+}
+
+.newsletter input {
+    border: none;
+    background-color: #fff;
+    padding: 3%;
+    box-shadow: 2px 2px 6px -1px rgba(124, 122, 122, 0.23);
+    outline: 0;
+}
+
+.newsletter img {
+    position: relative;
+    left: 70%;
+    bottom: 25px;
+    width: 10%;
+}
+
+.newsletter img:hover {
+    cursor: pointer;
+    scale: 1.08;
+    transform: 0.3;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #7a3ad4;
+}
