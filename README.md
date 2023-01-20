@@ -15,7 +15,9 @@
  [6. CSS Positioning](https://souraj.hashnode.dev/css-position-property) 
 
 [6. CSS Box Model](https://souraj.hashnode.dev/css-box-model)
+
 [7. Media Query](https://souraj.hashnode.dev/media-query)
+
 [8. CSS Grid](https://souraj.hashnode.dev/css-grid)
 
 ## HTML AND CSS Assignment :~
