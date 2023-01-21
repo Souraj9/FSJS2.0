@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS media query</title>
+	<style>
+	body {
+		text-align: center;
+	}
+	
+	.first {
+		font-size: 40px;
+		font-weight: bold;
+		color: #3DBE29;
+	}
+	
+	@media screen and (max-width:800px) {
+		body {
+			text-align: center;
+			background-color:#1B98F5;
+		}
+		.first {
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+		}
+		.secound {
+			color: white;
+		}
+	}
+	
+	@media screen and (max-width:500px) {
+		body {
+			text-align: center;
+			background-color:#E07C24;
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div class="first">iNeuron</div>
+	<div class="secound">A student portal for iNeuron</div>
+</body>
+
+</html>
