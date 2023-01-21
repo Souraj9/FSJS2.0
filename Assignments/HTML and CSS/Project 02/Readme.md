@@ -1,3 +1,3 @@
 # Project Output :~
 
-![Project 2]()
+![Project 2](output.png)
