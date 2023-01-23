@@ -6,12 +6,12 @@ Live Site URL: [Visit here  ](https://vs-code-siteclone-sg.netlify.app/)
 
 #### Desktop-View :
 
-![pc-view-ss]()
+![pc-view-ss](./assets/screen%20short/lap1.png)
 
 
 #### Mobile-View :
 
-![mobile-view-ss]()
+![mobile-view-ss](./assets/screen%20short/ph1.png)
 
 ### Built with :
 
