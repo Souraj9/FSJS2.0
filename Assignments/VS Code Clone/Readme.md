@@ -1,6 +1,6 @@
 # vs-code-clone 
 
-Live Site URL: [Visit here  ](https://63c9532896402a2aa419539d--stellar-mooncake-c7f688.netlify.app/)
+Live Site URL: [Visit here  ](https://vs-code-siteclone-sg.netlify.app/)
 
 ### Screenshots :
 
