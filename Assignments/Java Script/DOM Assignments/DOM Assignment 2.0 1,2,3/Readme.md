@@ -54,3 +54,43 @@ let bt= document.createElement("button");
 bt.innerText='Support Me';
 par.appendChild(bt);
 ```
+---
+
+
+
+# _DOM Assignment - 2_
+
+___
+### _After Update Final Output_ :
+
+![Output Image]()
+
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+let h= document.querySelectorAll(".accordian h3");
+let p= document.querySelectorAll(".accordian p");
+h.forEach((x) => {x.style.backgroundColor ="#dadaf8"}) ;
+p.forEach((x) => {x.style.backgroundColor ="#dadaf8"}) ;
+```
+
+
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
+let parent= document.querySelector(".accordian-wrapper");
+let div= document.createElement("div");
+let h= document.createElement("h3");
+let p= document.createElement("p");
+div.classList.add("accordian");
+h.innerText= 'Skills' ;
+p.innerText= 'I posses avery good command over the Full Stack Development technologies like MERN which can be see in my work over the Github' ;
+parent.appendChild(div);
+div.appendChild(h);
+div.appendChild(p);
+h.style.backgroundColor ="#dadaf8" ;
+p.style.backgroundColor ="#dadaf8" ;
+```
