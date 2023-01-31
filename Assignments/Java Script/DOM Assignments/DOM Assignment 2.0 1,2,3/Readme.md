@@ -94,3 +94,32 @@ div.appendChild(p);
 h.style.backgroundColor ="#dadaf8" ;
 p.style.backgroundColor ="#dadaf8" ;
 ```
+
+
+----
+
+# _DOM Assignment - 3_
+
+___
+### _After Update Final Output_ :
+
+![Output Image](./thirdAssignmentImage/Screenshot%202023-01-31%20113936.png)
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+let form= document.querySelectorAll('form') ;
+form[1].addEventListener('submit' , (x) => {x.preventDefault();
+  let name= document.querySelector('.userName');
+  let email= document.querySelector('.userEmail');
+  let msg= document.querySelector('.userMessage');
+
+  let on=document.querySelector('.enterName');
+  let oe=document.querySelector('.enterMail');                              let om= document.querySelector('.enterMessage');
+
+   on.value= name.value;                                         
+   oe.value= email.value;
+   om.value= msg.value ;
+                        })
+```
