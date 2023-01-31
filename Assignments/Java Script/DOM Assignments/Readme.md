@@ -123,3 +123,22 @@ form[1].addEventListener('submit' , (x) => {x.preventDefault();
    om.value= msg.value ;
                         })
 ```
+
+
+
+
+----
+
+# _DOM Assignment - 4_
+
+___
+### _After Update Final Output_ :
+
+![Output Image]()
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+
+```
