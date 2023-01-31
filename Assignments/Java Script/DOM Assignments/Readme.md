@@ -140,5 +140,25 @@ ___
 
 ### **Solution :**
 ```JavaScript
+let bar = document.querySelector('.clash-card__unit-stats--barbarian');
+bar.style.backgroundColor= '#eb9e2a';
+
+let arch = document.querySelector('.clash-card__unit-stats--archer');
+arch.style.backgroundColor= '#e84393';
+
+let gai = document.querySelector('.clash-card__unit-stats--giant');
+gai.style.backgroundColor= '#d35400';
+
+let gob = document.querySelector('.clash-card__unit-stats--goblin');
+gob.style.backgroundColor= '#4cd137';
+
+let wiz = document.querySelector('.clash-card__unit-stats--wizard');
+wiz.style.backgroundColor= '#00a8ff';
+
+bar.style.color='#fff';
+arch.style.color='#fff';
+gai.style.color='#fff';
+gob.style.color='#fff';
+wiz.style.color='#fff';
 
 ```
