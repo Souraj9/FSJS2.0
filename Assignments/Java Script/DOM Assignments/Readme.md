@@ -233,5 +233,22 @@ x.innerText='$10';
 
 
 
+----
+
+# _DOM Assignment - 7_
+
+___
+### _After Update Final Output_ :
+
+![Output Image]()
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+
+```
+
+
 
 
