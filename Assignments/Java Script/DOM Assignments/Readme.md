@@ -3,7 +3,7 @@
 ___
 ### _After Update Final Output_ :
 
-![Output Image](./firstAssignmentImage/full-opt.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/full-opt.png)
 
 ## _Task 1_:
 
@@ -162,3 +162,60 @@ gob.style.color='#fff';
 wiz.style.color='#fff';
 
 ```
+
+
+----
+
+# _DOM Assignment - 5_
+
+___
+### _After Update Final Output_ :
+
+![Output Image](./05_DOM%20Project/05_DOM%20Project/Output/Screenshot%201.png)
+![Output Image](./05_DOM%20Project/05_DOM%20Project/Output/Screenshot%202.png)
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+//nav bar
+const nav = document.querySelector(".nav-center");
+let div = document.createElement("div");
+let btn = document.createElement("a");
+btn.classList.add("btn");
+btn.textContent="Pro Subscription";
+div.append(btn);
+nav.appendChild(div);
+//Recipe 
+let rec= document.querySelector(".tags-container > div");
+let a=document.createElement("a");
+a.innerText='Chinese (7)';
+rec.appendChild(a);
+//add
+let a= document.querySelector(".recipe-gallery");
+let b= document.createElement("div");
+let c=document.createElement("h4");
+b.classList.add("card");
+c.innerText='add 6th card here';
+b.append(c);
+a.appendChild(b);
+```
+
+----
+
+# _DOM Assignment - 6_
+
+___
+### _After Update Final Output_ :
+
+![Output Image]()
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+
+```
+
+
+
