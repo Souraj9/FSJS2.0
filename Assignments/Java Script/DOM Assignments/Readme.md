@@ -208,14 +208,25 @@ a.appendChild(b);
 ___
 ### _After Update Final Output_ :
 
-![Output Image]()
+![Output Image](./06_DOM%20Project/06_DOM%20Project/assets/Screenshot%203.png)
+![Output Image](./06_DOM%20Project/06_DOM%20Project/assets/Screenshot%204.png)
 
 ## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
-
+//logo
+let a=document.querySelector("header");
+a.removeChild(a.firstElementChild);
+let img = document.createElement("img");
+img.src="./assets/ineuron-logo.png";
+a.appendChild(img);
+//price
+let x=document.querySelector(".app_price > span ");
+x.innerText='$10';
 ```
+
+
 
 
 
