@@ -221,7 +221,12 @@ a.removeChild(a.firstElementChild);
 let img = document.createElement("img");
 img.src="./assets/ineuron-logo.png";
 a.appendChild(img);
-//price
+```
+
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
 let x=document.querySelector(".app_price > span ");
 x.innerText='$10';
 ```
