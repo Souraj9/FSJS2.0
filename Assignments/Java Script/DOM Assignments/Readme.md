@@ -249,6 +249,14 @@ ___
 
 ```
 
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
+let s= document.querySelector(".main__form-input")
+let k= document.querySelector(".main__form-btn").disabled=false;
+let a= document.querySelector('button').addEventListener('click', () =>{ window.location.reload(true)});
+```
 
 
 
