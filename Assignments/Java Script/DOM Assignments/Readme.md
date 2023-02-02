@@ -260,3 +260,50 @@ let a= document.querySelector('button').addEventListener('click', () =>{ window.
 
 
 
+----
+
+# _DOM Assignment - 8_
+
+___
+### _After Update Final Output_ :
+
+1.![Output Image]()
+2.![Output Image]()
+3.![Output Image]()
+
+## _Task 1_:
+
+### **Solution :**
+```JavaScript
+let a=document.querySelector("aside");
+//hr
+let hr= document.createElement('hr');
+hr.classList.add('hr-line');
+a.appendChild(hr);
+//h2
+let h2= document.createElement('h2');
+h2.classList.add('new-head');
+h2.innerText='This is my custom heading';
+a.appendChild(h2);
+//bar
+a.style.overflow='auto';
+//border
+a.style.border='thick solid #E21717';
+
+```
+
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
+let body=document.querySelector('body');
+body.style.backgroundImage='none';
+'none'
+```
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
+
+```
+
