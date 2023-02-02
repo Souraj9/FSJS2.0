@@ -267,9 +267,9 @@ let a= document.querySelector('button').addEventListener('click', () =>{ window.
 ___
 ### _After Update Final Output_ :
 
-1.![Output Image]()
-2.![Output Image]()
-3.![Output Image]()
+1.![Output Image](./DOM%20P8/DOM%20P8/images/Screenshot%205.png)
+2.![Output Image](./DOM%20P8/DOM%20P8/images/Screenshot%206.png)
+3.![Output Image](./DOM%20P8/DOM%20P8/images/Screenshot%207.png)
 
 ## _Task 1_:
 
@@ -300,10 +300,39 @@ let body=document.querySelector('body');
 body.style.backgroundImage='none';
 'none'
 ```
-## _Task 2_:
+## _Task 3_:
+
+### **Solution :**
+```JavaScript
+let nav = document.getElementsByClassName("navbar-toggler");
+let i;
+
+for (i = 0; i < nav.length; i++) {
+  nav[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let navContent = this.nextElementSibling;
+    if (navContent.style.display === "block") {
+      navContent.style.display = "none";
+    } else {
+      navContent.style.display = "block";
+    }
+  });
+}
+```
+
+
+----
+
+# _DOM Assignment - 9_
+
+___
+### _After Update Final Output_ :
+
+1.![Output Image]()
+
+## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
 
 ```
-
