@@ -328,11 +328,20 @@ for (i = 0; i < nav.length; i++) {
 ___
 ### _After Update Final Output_ :
 
-1.![Output Image]()
+![Output Image](./DOM%20P9/DOM%20P9/images/Screenshot%208.png)
 
 ## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
+let h=document.querySelector('h1');
+h.style.color='#E21717';
+```
 
+## _Task 2_:
+
+### **Solution :**
+```JavaScript
+let p=document.querySelector('.add-to-cart');
+p.style.backgroundColor='#E21717';
 ```
