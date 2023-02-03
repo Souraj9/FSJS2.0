@@ -129,7 +129,7 @@ form[1].addEventListener('submit' , (x) => {x.preventDefault();
   let msg= document.querySelector('.userMessage');
 
   let on=document.querySelector('.enterName');
-  let oe=document.querySelector('.enterMail');                              let om= document.querySelector('.enterMessage');
+  let oe=document.querySelector('.enterMail');                                                  let om= document.querySelector('.enterMessage');
 
    on.value= name.value;                                         
    oe.value= email.value;
@@ -147,32 +147,34 @@ form[1].addEventListener('submit' , (x) => {x.preventDefault();
 ___
 ### _After Update Final Output_ :
 
-![Output Image]()
+![Output Image](./04_DOM%20Project/04_DOM%20Project/assets/Screenshot%2010.png)
+![Output Image](./04_DOM%20Project/04_DOM%20Project/assets/Screenshot%2011.png)
 
 ## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
+//barb
 let bar = document.querySelector('.clash-card__unit-stats--barbarian');
 bar.style.backgroundColor= '#eb9e2a';
-
+//arch
 let arch = document.querySelector('.clash-card__unit-stats--archer');
-arch.style.backgroundColor= '#e84393';
-
+//giant
 let gai = document.querySelector('.clash-card__unit-stats--giant');
 gai.style.backgroundColor= '#d35400';
-
+//gob
 let gob = document.querySelector('.clash-card__unit-stats--goblin');
 gob.style.backgroundColor= '#4cd137';
-
+//wiz
 let wiz = document.querySelector('.clash-card__unit-stats--wizard');
 wiz.style.backgroundColor= '#00a8ff';
-
-bar.style.color='#fff';
-arch.style.color='#fff';
-gai.style.color='#fff';
-gob.style.color='#fff';
-wiz.style.color='#fff';
+//text color
+let col=document.querySelectorAll('.clearfix');
+let color = [...col];
+color.map((x)=> x.style.color = "#fff");
+let scol= document.querySelectorAll(".no-border");
+let scolor = [...scol];
+scolor.map((x)=> x.style.color = "#fff");
 
 ```
 
@@ -253,20 +255,26 @@ x.innerText='$10';
 ___
 ### _After Update Final Output_ :
 
-![Output Image]()
+![Output Image](./DOM%20P7/DOM%20P7/Screenshot%2012.png)
+![Output Image](./DOM%20P7/DOM%20P7/Screenshot%2013.png)
 
 ## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
+let crs=document.querySelectorAll('.main__languages >a');
+let a=[...crs];
 
+a.map((course) =>
+  course.innerText.includes("2.0") ? (course.style.display = "none") : null
+);
 ```
 
 ## _Task 2_:
 
 ### **Solution :**
 ```JavaScript
-let s= document.querySelector(".main__form-input")
+let s= document.querySelector(".main__form-input").disabled=false;
 let k= document.querySelector(".main__form-btn").disabled=false;
 let a= document.querySelector('button').addEventListener('click', () =>{ window.location.reload(true)});
 ```
