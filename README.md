@@ -1,6 +1,7 @@
-# Full Stack javaScript 2.0
+# __Full Stack javaScript (2.0)__
+---
 
-## Assignment Articles Links :~
+## 💻 __Assignment Articles Links__ 👇
 
 [1. Introduction to Web and HTML](https://souraj.hashnode.dev/introduction-to-web-server)
 
@@ -20,7 +21,10 @@
 
 [8. CSS Grid](https://souraj.hashnode.dev/css-grid)
 
-## HTML AND CSS Assignment :~
+---
+
+
+## 💻 __HTML AND CSS Assignments__ 👇
 
 [Project 1](https://github.com/Souraj9/FSJS2.0/tree/main/Assignments/HTML%20and%20CSS/Project%2001)
 
@@ -46,6 +50,14 @@
 
 [Project 12- Data Analytics Landing Page](https://github.com/Souraj9/FSJS2.0/tree/main/Assignments/HTML%20and%20CSS/12%20Project-%20Data%20Analytics%20Landing%20Page)
 
-## Tailwind Projects :~
+---
+
+## 💻 __Tailwind Projects__ 👇
 
 [Visual Studio Clone](https://github.com/Souraj9/FSJS2.0/tree/main/Assignments/VS%20Code%20Clone) 
+
+---
+## 💻 __JavaScript Assignments__  👇
+[1. Questions](https://github.com/Souraj9/FSJS2.0/tree/main/Assignments/Java%20Script/Questions)
+
+[2. DOM](https://github.com/Souraj9/FSJS2.0/tree/main/Assignments/Java%20Script/DOM%20Assignments)
