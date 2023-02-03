@@ -63,15 +63,15 @@ par.appendChild(bt);
 ___
 ### _After Update Final Output_ :
 
-![Output Image]()
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%209.png)
 
 
 ## _Task 1_:
 
 ### **Solution :**
 ```JavaScript
-let h= document.querySelectorAll(".accordian h3");
-let p= document.querySelectorAll(".accordian p");
+let h= document.querySelectorAll(".accordian > h3");
+let p= document.querySelectorAll(".accordian >p");
 h.forEach((x) => {x.style.backgroundColor ="#dadaf8"}) ;
 p.forEach((x) => {x.style.backgroundColor ="#dadaf8"}) ;
 ```
@@ -81,6 +81,7 @@ p.forEach((x) => {x.style.backgroundColor ="#dadaf8"}) ;
 
 ### **Solution :**
 ```JavaScript
+//creating h3 & p
 let parent= document.querySelector(".accordian-wrapper");
 let div= document.createElement("div");
 let h= document.createElement("h3");
@@ -93,6 +94,18 @@ div.appendChild(h);
 div.appendChild(p);
 h.style.backgroundColor ="#dadaf8" ;
 p.style.backgroundColor ="#dadaf8" ;
+//click effect
+let ax = document.querySelectorAll(".accordian > h3");
+ax.forEach((element) => {
+  element.addEventListener("click", () => {
+    let para = element.nextElementSibling;
+    if (para.style.display === "block") {
+      para.style.display = "none";
+    } else {
+      para.style.display = "block";
+    }
+  });
+});
 ```
 
 
