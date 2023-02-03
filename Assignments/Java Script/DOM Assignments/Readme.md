@@ -116,7 +116,7 @@ ax.forEach((element) => {
 ___
 ### _After Update Final Output_ :
 
-![Output Image](./thirdAssignmentImage/Screenshot%202023-01-31%20113936.png)
+![Output Image](./DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/Screenshot%202023-01-31%20113936.png)
 
 ## _Task 1_:
 
